@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Quadratic Equation</title>
+  <script src="js/script.js" charset="utf-8"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+  <h2>Quadratic Equation Calculator</h2>
+  <form name="quadraticEquationForm">
+    <input type="text" name="a" style="width:20px" autofocus>x<sup>2</sup> +
+    <input type="text" name="b" style="width:20px">x +
+    <input type="text" name="c" style="width:20px"> = 0 &nbsp;
+    <input type="button" value="Compute" onclick="computeQuadratic()"><br><br>
+    Results:<br>
+    x<sub>1</sub> = <input type="text" name="x1" readonly><br>
+    x<sub>2</sub> = <input type="text" name="x2" readonly>
+  </form>
+  <div id="plot">
+
+  </div>
+  <div id="history"></div>
+
+</body>
+
+</html>
