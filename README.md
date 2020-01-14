@@ -1,5 +1,5 @@
 # quadraticEquationPlotter
-A simple calculator with a function of plotting and history of operation.
+A simple calculator with the function of plotting and operation history.
 
 
 To run: download the project zip file, unzip it and open the index.html file in your browser (to open, double-click it).
